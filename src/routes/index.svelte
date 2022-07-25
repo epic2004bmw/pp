@@ -21,7 +21,7 @@
 
 <div class="list">
 	{#each todos as todo, index}
-		<input bind:value={todos[index]} />
+		<input style="font-family:Bradley Hand, cursive;background-color:cornflowerblue" bind:value={todos[index]} />
 		<button on:click={() => removeSelf(index)}>Done</button>
 		<br />
 	{/each}
