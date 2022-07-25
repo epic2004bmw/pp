@@ -21,8 +21,6 @@ todos = [...todos.slice(0, index), ...todos.slice(index+1)];
 <button on:click={addTodo}>Add</button>
 </div>
 
-
-
 <footer>
     <h1>Get back into shape!</h1>
 </footer>
